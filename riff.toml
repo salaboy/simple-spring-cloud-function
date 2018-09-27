@@ -1,0 +1,1 @@
+handler = "uppercase&main=org.spring.cloud.functions.simplefunction.SimpleFunctionApplication"
