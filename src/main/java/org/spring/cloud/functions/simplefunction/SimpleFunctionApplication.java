@@ -15,7 +15,7 @@ public class SimpleFunctionApplication {
     }
 
     @Bean
-    public Function<Flux<String>, Flux<String>> uppercase() {
-        return flux -> flux.map(value -> value.toUpperCase());
+    public Function<String,String> uppercase() {
+        return String::toUpperCase;
     }
 }
